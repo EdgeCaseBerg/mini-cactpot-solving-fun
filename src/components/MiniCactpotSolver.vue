@@ -6,8 +6,7 @@
         <p id="cancel-label">Thinking</p>
       </div>
     </template>
-    <b-row class="cactpot">
-        <b-col>
+    <b-container class="cactpot">
           <b-row v-for="(row, idx) in rows" :key="`row-${idx}`">
             <b-col>
               <!-- Empty space for diag reward display-->
@@ -30,8 +29,7 @@
               {{rewards[diag159(guess)]}}
             </b-col>
           </b-row>
-        </b-col>
-    </b-row>
+    </b-container>
   </b-overlay>
 </template>
 

@@ -4,14 +4,20 @@
       <b-col class="text-start">
         <h2>Cactpot Solver</h2>
       </b-col>
+    </b-row>
+    <b-row>
       <b-col>
         <b-row>
           <b-col>
-            <MiniCactpotSolver /><br/>
+            <MiniCactpotSolver />
           </b-col>
+        </b-row>
+        <b-row>
           <b-col>
             <MiniCactpotSolver />
           </b-col>
+        </b-row>
+        <b-row>
           <b-col>
             <MiniCactpotSolver />
           </b-col>
